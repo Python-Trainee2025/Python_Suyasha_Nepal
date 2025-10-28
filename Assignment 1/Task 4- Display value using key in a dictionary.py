@@ -12,6 +12,8 @@ person= input('Enter person\'s name: ')
 
 contact= None
 
+# print(personal_info.items()) #list of tuples containing key-value pairs
+
 for person_id, details in personal_info.items():
     if details['name'] == person:
         contact= details['contact']
